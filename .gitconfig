@@ -6,6 +6,7 @@
     co = checkout
     br = branch
     lo = log --graph
+    root = rev-parse --show-toplevel
 [push]
 	default = upstream
 [core]
