@@ -1,0 +1,14 @@
+[user]
+#	name = your_name
+#	email = your_email
+[alias]
+	st = status
+    co = checkout
+    br = branch
+    lo = log --graph
+[push]
+	default = upstream
+[core]
+	editor = vim
+[color]
+    ui = true
