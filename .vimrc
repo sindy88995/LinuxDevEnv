@@ -57,6 +57,7 @@ let g:indentLine_char = '┆'
 map <F3> :IndentLinesToggle <CR>
 
 "gruvbox
+:syntax on
 :set background=dark
 :colo gruvbox
 
