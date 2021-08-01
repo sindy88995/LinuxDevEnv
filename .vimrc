@@ -48,7 +48,8 @@ filetype plugin indent on    " required
 :set rnu
 map <F4> :set nu! rnu! <CR>
 map <F5> :NERDTreeToggle <CR>
-":colorscheme peachpuff
+" Open it on Mac OS to fix delete(backspace) button
+":set backspace=2
 
 "indentLine
 let g:indentLine_enabled = 1
