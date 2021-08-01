@@ -20,6 +20,8 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'morhetz/gruvbox'
 
 Plugin 'preservim/nerdtree'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
