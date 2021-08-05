@@ -15,13 +15,12 @@ Plugin 'vim-airline/vim-airline'
 " https://github.com/vim-airline/vim-airline-themes
 " https://github.com/vim-airline/vim-airline/wiki/Screenshots
 Plugin 'vim-airline/vim-airline-themes'
-
 Plugin 'Yggdroot/indentLine'
 Plugin 'morhetz/gruvbox'
-
 Plugin 'preservim/nerdtree'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+Plugin 'hashivim/vim-terraform'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
