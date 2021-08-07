@@ -58,6 +58,9 @@ let g:indentLine_color_term = 243
 let g:indentLine_char = '┆'
 map <F3> :IndentLinesToggle <CR>
 
+"maintain json file double quotes
+let g:vim_json_conceal = 0
+
 "gruvbox
 :syntax on
 :set background=dark
