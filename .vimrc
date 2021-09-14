@@ -44,6 +44,7 @@ filetype plugin indent on    " required
 :set shiftwidth=4
 :set softtabstop=4
 :set t_Co=256
+:set hlsearch
 :set pastetoggle=<F2>
 :set nu
 :set rnu
