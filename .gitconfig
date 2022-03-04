@@ -5,6 +5,7 @@
     st = status
     co = checkout
     br = branch
+    bl = blame
     lo = log --graph
     adog = log --all --decorate --oneline --graph
     root = rev-parse --show-toplevel
