@@ -20,8 +20,8 @@ Plugin 'morhetz/gruvbox'
 Plugin 'preservim/nerdtree'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
-Plugin 'hashivim/vim-terraform'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'hashivim/vim-terraform'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -52,7 +52,7 @@ filetype plugin indent on    " required
 map <F4> :set nu! rnu! <CR>
 map <F5> :NERDTreeToggle <CR>
 " Open it on Mac OS to fix delete(backspace) button
-":set backspace=2
+:set backspace=2
 
 "indentLine
 let g:indentLine_enabled = 1
@@ -70,3 +70,6 @@ let g:vim_json_conceal = 0
 
 "air-line
 let g:airline_powerline_fonts = 1
+
+"terraform
+let g:terraform_fmt_on_save = 1
